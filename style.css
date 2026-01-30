@@ -1,10 +1,10 @@
 :root {
-  --bg: #0b1220;
-  --card: #111a2e;
-  --text: #e8eefc;
-  --muted: #b9c6e4;
-  --accent: #4da3ff;
-  --border: rgba(255,255,255,.10);
+  --bg: #f4f6f9;
+  --card: #ffffff;
+  --text: #222222;
+  --muted: #555555;
+  --accent: #1f6feb;
+  --border: rgba(0,0,0,.08);
 }
 
 * { box-sizing: border-box; }
@@ -141,3 +141,4 @@ h2 {
   color: var(--muted);
   font-size: 14px;
 }
+
