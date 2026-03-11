@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://excel-erlan.github.io/excel-site/sitemap.xml
