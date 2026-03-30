@@ -49,9 +49,21 @@ style="width:180px; max-width:60vw; border-radius:14px; box-shadow:0 6px 18px rg
 создание таблиц, формул, сводных отчётов и автоматизация с помощью VBA.
 </p>
 
-<a class="btn" href="https://api.whatsapp.com/send?phone=77088489452">
-Написать в WhatsApp
-</a>
+<a class="btn" href="#" onclick="openWhatsApp()">Написать в WhatsApp</a>
+
+<script>
+function openWhatsApp() {
+  var phone = "77088489452";
+  
+  // попытка открыть приложение
+  window.location.href = "whatsapp://send?phone=" + phone;
+  
+  // если не открылось — открыть веб версию
+  setTimeout(function(){
+    window.location.href = "https://wa.me/" + phone;
+  }, 800);
+}
+</script>
 
 
 <p class="meta">
